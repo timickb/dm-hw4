@@ -35,15 +35,31 @@
     \section{Доказать: $f: A \rightarrow B$ инъективна $\Leftrightarrow \forall{C} \forall{g, h: C \rightarrow A}: (f \circ g = f\circ h \implies g = h)$}
 
     \section{}
-    a). $\mathbb{Q}^{\underline{3}}$
+    a). $\mathbb{Q}^{\underline{3}}$: $\{(0, \frac{1}{2}), (1, \frac{2}{3}), (2, \frac{4}{7})\}$
 
     \vspace{\baselineskip}
-    b).$\mathbb{R}^{\mathbb{Q}}$
+    b).$\mathbb{R}^{\mathbb{Q}}$: $\{(\frac{1}{2}, \sqrt{2}), (\frac{2}{3}, \pi), (\frac{3}{4}, \sqrt{5})\}$
 
     \vspace{\baselineskip}
-    c). $\mathbb{R}^{\mathbb{R}\times \mathbb{Z}}$
+    c). $\mathbb{R}^{\mathbb{R}\times \mathbb{Z}}$:
+        $\{((4.13,8), 17.6), ((0.21,2093), 0.2), ((3.71,3), 9)\}$
 
     \section{Пусть $A \cap B = \varnothing$. Доказать: $C^{A\cup B} \sim C^{A} \times C^{B}$}
+    1) $|A| + |B| = |A \cup B| - |A \cap B| = |A\cup B| - 0 = |A\cup B|$.
+
+    Пусть $|A| = n, |B| = m, |C| = k$
+
+    \vspace{\baselineskip}
+    Известно, что $|A^{B}| = |A|^{|B|}$.
+
+    Также очевиден факт, что $|C^A\times C^B| = |C^A|\cdot |C^B|$
+
+    \vspace{\baselineskip}
+    Тогда $|C^{A\cup B}| = k^{n+m}, |C^A| = k^n, |C^B| = k^m$,
+
+    $|C^A\times C^B| = |C^A|\cdot |C^B| = k^n\cdot k^m = k^{n+m}$.
+
+    Выходит, что $|C^{A\cup B}| = |C^A\times C^B| = k^{n+m}$, а значит, $C^{A\cup B} \sim C^{A} \times C^{B}$.
 
     \section{$P_1(A)$ - множество всех подмножеств множества $A$ вида $\{x\}$. Доказать: $P_1(A) \sim A$ $\forall A$}
 
