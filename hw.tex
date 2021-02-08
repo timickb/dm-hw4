@@ -26,11 +26,22 @@
 
     \section{$P \subseteq \mathbb{R} \times \mathbb{R}$}
 
+    a). $\left\{\begin{aligned}
+        P(x) = x, x\neq 0\\
+        P(1) = 0
+    \end{aligned}\right.$
+
+    \vspace{\baselineskip}
+    b). $\left\{\begin{aligned}
+      P(x) = x, x\neq 0\\
+      P(0) = 1
+  \end{aligned}\right.$
+
     \section{Пусть $R \subseteq A \times B$ функционально.}
 
-    \section{$f: A \implies B$ и $g: A \rightarrow B$. Доказать, что $f \cup g: A \rightarrow B \Leftrightarrow f = g$}
+    \section{$f: A \rightarrow B$ и $g: A \rightarrow B$. Доказать, что $f \cup g: A \rightarrow B \Leftrightarrow f = g$}
 
-    \section{$f: A \implies B$ и $g: B \rightarrow C$. Доказать следствие: $g \circ f$ - инъекция $\implies f$ - тоже инъекция.}
+    \section{$f: A \rightarrow B$ и $g: B \rightarrow C$. Доказать следствие: $g \circ f$ - инъекция $\implies f$ - тоже инъекция.}
 
     \section{Доказать: $f: A \rightarrow B$ инъективна $\Leftrightarrow \forall{C} \forall{g, h: C \rightarrow A}: (f \circ g = f\circ h \implies g = h)$}
 
@@ -63,6 +74,19 @@
 
     \section{$P_1(A)$ - множество всех подмножеств множества $A$ вида $\{x\}$. Доказать: $P_1(A) \sim A$ $\forall A$}
 
+    Пусть $A = \{a_0, a_1, a_2\dots\}$. Тогда $P_1(A) = \{\{a_0\},\{a_1\},\{a_2\}\dots\}$
+
+    \vspace{\baselineskip}
+    1) Пусть А - конечное и $|A| = n$. Тогда есть $n$ способов выбрать первый синглтон в $P_1(A)$,
+    $n-1$ способ выбрать 2-й синглтон, $n-2$ - 3-й, и так далее. $n$-й синглтон можно выбрать
+    только одним способом, а значит, других синглтонов в $P_1(A)$ быть не может и их ровно $n$,
+    т.е $|P_1(A)| = |A|$.
+
+    \vspace{\baselineskip}
+    2) В общем случае каждому элементу из $A$ соответствует ровно один синглтон из $P_1(A)$,
+    потому что для любой сущности есть только один способ создать одноэлементное множество,
+    состоящее из него одного.
+
     \section{Доказать, что для любых $A, B, C$ верно, используя характ. функции:}
     a). $(A \backslash B) \backslash C = (A \backslash C) \cup (B \backslash C)$
 
@@ -75,9 +99,27 @@
     \vspace{\baselineskip}
     b). $\underline{5}^{\mathbb{N}}\sim \underline{3}^{\mathbb{N}}$
 
+    $$\underline{5}^{\mathbb{N}} = \left\{ f: \mathbb{N}\rightarrow \{0,1,2,3,4\} \right\}$$
+    $$\underline{3}^{\mathbb{N}} = \left\{ f: \mathbb{N}\rightarrow \{0,1,2\} \right\}$$
+
+    $\underline{5}^{\mathbb{N}} \sim \mathbb{N}$, так как каждому натуральному числу можно поставить в соответствие
+    \textbf{ровно один} его остаток от деления на 5,
+
+    $\underline{3}^{\mathbb{N}} \sim \mathbb{N}$, так как каждому натуральному числу можно поставить в соответствие
+    \textbf{ровно один} его остаток от деления на 3.
+
+    Оба множества равномощны натуральному ряду, значит, они равномощны друг другу.
+
     \vspace{\baselineskip}
     c). любой квадрат (с внутренностью) и любой круг на плоскости равномощны друг другу; (подумайте
     о движениях и других геометрических преобразованиях плоскости)
+
+    \vspace{\baselineskip}
+    Обозначим множество квадратов на плоскости как 
+    $S = \{ (a, b)\in\mathbb{R} \vert a\cdot b$ -  площадь квадрата$\}$;
+
+    Обозначим множество кругов на плоскости как
+    $S = \{ (x, y, r)\in\mathbb{R} \vert x, y$ -  координаты центра, $r$ - радиус$\}$.
 
     \vspace{\baselineskip}
     d). множество всевозможных треугольников на плоскости равномощно $\mathbb{R}$.

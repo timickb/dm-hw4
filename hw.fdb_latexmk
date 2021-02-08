@@ -1,11 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1612765375 "/home/timickb/dm_hw4/hw.tex" "/home/timickb/dm_hw4/hw.pdf" "hw" 1612765375
+["pdflatex"] 1612783861 "/home/timickb/dm_hw4/hw.tex" "/home/timickb/dm_hw4/hw.pdf" "hw" 1612783920
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1095.tfm" 1605848994 3336 216c27338cb0f11f0d2908d69ce3de23 ""
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1095.tfm" 1605848992 3264 ead613d557baebcc53cf028c9c92d927 ""
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1601726707 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1601726705 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
-  "/home/timickb/dm_hw4/hw.aux" 1612765375 2406 ca2e8a42351fe4a41a31e0137204709f ""
-  "/home/timickb/dm_hw4/hw.tex" 1612765374 3609 b7694dbdb9164507ea89c3943234829d ""
+  "/home/timickb/dm_hw4/hw.aux" 1612783861 2212 17b58c34d35f0b93153417dcbea28647 ""
+  "/home/timickb/dm_hw4/hw.tex" 1612783919 6111 5ffa6e4069355aa287a2a34cf7289c61 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1607249373 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1607249373 1004 54797486969f23fa377b128694d548df ""
@@ -26,6 +26,7 @@
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy10.tfm" 1607249373 1124 6c73e740cf17375f03eec0ee63599741 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy6.tfm" 1607249373 1116 933a60c408fc0a863a92debe84b2d294 ""
   "/usr/share/texmf-dist/fonts/tfm/public/cm/cmsy8.tfm" 1607249373 1120 8b7d695260f3cff42e636090a8002094 ""
+  "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb" 1607249373 30251 6afa5cb1d0204815a708a080681d4674 ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1607249373 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb" 1607249373 35469 70d41d2b9ea31d5d813066df7c99281c ""
   "/usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb" 1607249373 35752 024fb6c41858982481f6968b5fc26508 ""
@@ -87,11 +88,11 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1607249373 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1612694227 4888293 5e20d00bdec0a891b818480632ec4c69 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1612694205 2635857 f9bd8979475dbfe588e3cf1a75cdee64 ""
-  "hw.aux" 1612765375 2406 ca2e8a42351fe4a41a31e0137204709f "pdflatex"
-  "hw.tex" 1612765374 3609 b7694dbdb9164507ea89c3943234829d ""
+  "hw.aux" 1612783861 2212 17b58c34d35f0b93153417dcbea28647 "pdflatex"
+  "hw.tex" 1612783919 6111 5ffa6e4069355aa287a2a34cf7289c61 ""
   (generated)
   "/home/timickb/dm_hw4/hw.pdf"
   "hw.aux"
+  "hw.pdf"
   "hw.log"
   "/home/timickb/dm_hw4/hw.log"
-  "hw.pdf"
