@@ -39,6 +39,14 @@
 
     \section{Пусть $R \subseteq A \times B$ функционально.}
 
+    a). Доказать $\forall X: R[R^{-1}[X]]\subseteq X$.
+
+    $R^{-1}\subseteq B\times A$ - инъективное отношение (как обратное к функциональному);
+     
+    При $X\subseteq B$, $R^{-1}[X] = \{ a\in A\vert \exists b\in X: bRa \}$.
+
+    Так как $R^{-1}$ - инъекция, справедливо, что $|R^{-1}[X]| \geq |X|$.
+
     \section{$f: A \rightarrow B$ и $g: A \rightarrow B$. Доказать, что $f \cup g: A \rightarrow B \Leftrightarrow f = g$}
 
     \section{$f: A \rightarrow B$ и $g: B \rightarrow C$. Доказать следствие: $g \circ f$ - инъекция $\implies f$ - тоже инъекция.}
@@ -88,7 +96,52 @@
     состоящее из него одного.
 
     \section{Доказать, что для любых $A, B, C$ верно, используя характ. функции:}
-    a). $(A \backslash B) \backslash C = (A \backslash C) \cup (B \backslash C)$
+    a). $(A \cup B) \backslash C = (A \backslash C) \cup (B \backslash C)$
+
+    $$\chi_{(A\cup B)\backslash C} = \chi_{A\backslash C}\cup \chi_{B\backslash C}$$
+
+    $$\chi_{A\cup B}\cdot(1 - \chi_C) = \chi_A\cdot(1 - \chi_C)\cup \chi_B\cdot(1 - \chi_C)$$
+
+    Рассмотрим четыре варианта значений для $\chi_A, \chi_B$:
+
+    \vspace{\baselineskip}
+    1) $\chi_A = 0, \chi_B = 0$.
+
+    Тогда $\chi_{A\cup B} = max(\chi_A, \chi_B) = 0 \implies \chi_{A\cup B}\cdot(1 - \chi_C) = 0$,
+
+    $\chi_A\cdot(1 - \chi_C)\cup \chi_B\cdot(1 - \chi_C) = 0\cdot(1-\chi_C)\cup 0\cdot(1-\chi_C) = 0$.
+
+    $0 = 0$ - это, вроде как, верно.
+
+    \vspace{\baselineskip}
+    2) $\chi_A = 0, \chi_B = 1$.
+
+    Тогда $\chi_{A\cup B} = max(\chi_A, \chi_B) = 1 \implies \chi_{A\cup B}\cdot(1 - \chi_C) = \overline{\chi_C}$,
+
+    $\chi_A\cdot(1 - \chi_C)\cup \chi_B\cdot(1 - \chi_C) = 0\cdot(1-\chi_C)\cup 1\cdot(1-\chi_C) = 
+    1-\chi_C = \overline{\chi_C}$.
+
+    $\overline{\chi_C} = \overline{\chi_C}$ верно при любом $\chi_C$.
+
+    \vspace{\baselineskip}
+    3) $\chi_A = 1, \chi_B = 0$.
+
+    Тогда $\chi_{A\cup B} = max(\chi_A, \chi_B) = 1 \implies \chi_{A\cup B}\cdot(1 - \chi_C) = \overline{\chi_C}$,
+
+    $\chi_A\cdot(1 - \chi_C)\cup \chi_B\cdot(1 - \chi_C) = 1\cdot(1-\chi_C)\cup 0\cdot(1-\chi_C) = 
+    1-\chi_C = \overline{\chi_C}$.
+
+    $\overline{\chi_C} = \overline{\chi_C}$ верно при любом $\chi_C$.
+
+    \vspace{\baselineskip}
+    4) $\chi_A = 1, \chi_B = 1$.
+
+    Тогда $\chi_{A\cup B} = max(\chi_A, \chi_B) = 1 \implies \chi_{A\cup B}\cdot(1 - \chi_C) = \overline{\chi_C}$,
+
+    $\chi_A\cdot(1 - \chi_C)\cup \chi_B\cdot(1 - \chi_C) = 1\cdot(1-\chi_C)\cup 1\cdot(1-\chi_C) = 
+    (1-\chi_C)\cup (1-\chi_C) = \overline{\chi_C}$.
+
+    $\overline{\chi_C} = \overline{\chi_C}$ верно при любом $\chi_C$.
 
     \vspace{\baselineskip}
     b). $(A \backslash B) \cup B = A \Leftrightarrow B \subseteq A$
