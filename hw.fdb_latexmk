@@ -1,11 +1,11 @@
 # Fdb version 3
-["pdflatex"] 1612804331 "/home/timickb/dm_hw4/hw.tex" "/home/timickb/dm_hw4/hw.pdf" "hw" 1612804332
+["pdflatex"] 1612981257 "/home/timickb/dm_hw4/hw.tex" "/home/timickb/dm_hw4/hw.pdf" "hw" 1612981257
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/labx1095.tfm" 1605848994 3336 216c27338cb0f11f0d2908d69ce3de23 ""
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1095.tfm" 1605848992 3264 ead613d557baebcc53cf028c9c92d927 ""
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1200.tfm" 1601726707 3240 c2435f2b5cd66d4930bc29b8df87967e ""
   "/home/timickb/.texlive/texmf-var/fonts/tfm/lh/lh-t2a/larm1728.tfm" 1601726705 3252 92d08740ce00199d6cf9ff4aaada81d1 ""
-  "/home/timickb/dm_hw4/hw.aux" 1612804332 2212 4d0aca452f411395bf99c6b987d2c88c ""
-  "/home/timickb/dm_hw4/hw.tex" 1612804331 9362 cf6a3a1cb727923bf2a256ee15d28ee7 ""
+  "/home/timickb/dm_hw4/hw.aux" 1612981257 2212 223e75cd3db5e1a6b0a5d933ba0397d9 ""
+  "/home/timickb/dm_hw4/hw.tex" 1612981257 12162 fad500b121e6361b3477773dce5e4562 ""
   "/usr/share/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t2a.enc" 1607249373 3141 82d5616418ed8d5de703b3951bedecb4 ""
   "/usr/share/texmf-dist/fonts/map/fontname/texfonts.map" 1607249373 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "/usr/share/texmf-dist/fonts/tfm/public/amsfonts/cmextra/cmex7.tfm" 1607249373 1004 54797486969f23fa377b128694d548df ""
@@ -88,11 +88,12 @@
   "/usr/share/texmf-dist/web2c/texmf.cnf" 1607249373 33301 a3134070eacafb10b1f371612ce2650d ""
   "/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map" 1612694227 4888293 5e20d00bdec0a891b818480632ec4c69 ""
   "/var/lib/texmf/web2c/pdftex/pdflatex.fmt" 1612694205 2635857 f9bd8979475dbfe588e3cf1a75cdee64 ""
-  "hw.aux" 1612804332 2212 4d0aca452f411395bf99c6b987d2c88c "pdflatex"
-  "hw.tex" 1612804331 9362 cf6a3a1cb727923bf2a256ee15d28ee7 ""
+  "hw.aux" 1612981257 2212 223e75cd3db5e1a6b0a5d933ba0397d9 "pdflatex"
+  "hw.tex" 1612981257 12162 fad500b121e6361b3477773dce5e4562 ""
+  "image.jpg" 1612976360 41697 b32d5f2bc75358d9e2c66a38dbfcf517 ""
   (generated)
   "/home/timickb/dm_hw4/hw.log"
   "hw.log"
-  "hw.aux"
   "hw.pdf"
   "/home/timickb/dm_hw4/hw.pdf"
+  "hw.aux"
